@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -486,7 +487,7 @@ row img{
   transform: scale(1.1);
 }
 
-.row:hover .layer{
+.row:hover.layer{
   height: 10%;
 }
 
@@ -681,4 +682,28 @@ row img{
   position: relative;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+
+.last-text{
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background: rgb(7, 85, 91);
+  font-weight: 300;
+  margin-top: 70px;
+}
+
+.top{
+  position: fixed;
+  bottom: 2.1rem;
+  right: 2.1rem;
+}
+
+.top i{
+  color: #000;
+  background: #0ef;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 0.5rem;
 }
